@@ -40,22 +40,41 @@ const Home = () => {
           </div>
 
           <div className="flex flex-col items-center md:flex-row">
-            <Link
-              to="/"
-              className="border-blue-300 md:w-auto md:mr-4 mb-4 md:mb-0"
-            >
+
+
+
+
+            {/* <div className="inline-flex gap-3 items-center justify-center w-full h-full">
+            <div className="border-blue-300 gap-3 md:w-auto md:mr-4 mb-4 md:mb-0">
+                  <button className="flex -ms-16 btn bg-violet-400 border-0 text-white rounded-md px-5 py-2">
+                  <a className="" href={resume}>Download CV</a>
+                  <span className="text-lg ml-1">
+                  <FiDownload />
+                  </span>
+                    
+                  </button>
+                  
+            </div>
+            
+              </div> */}
+            <div className="border-blue-300 md:w-auto md:mr-4 mb-4 md:mb-0">
+
+
               <div className="inline-flex items-center justify-center w-full h-full">
-            <div>
-                  <a href={resume}>Download CV</a>
+                <button className="btn btn-outline btn-primary rounded-md px-5 py-2 me-20">
+                <a className="" href={resume}>Download CV</a> 
                   <span className="text-lg ml-1">
                     <FiDownload />
                   </span>
-            </div>
+                </button>
               </div>
-            </Link>
+            </div>
+
+
+
             <Link to="/contact" className="md:w-auto md:mr-4">
               <div className="inline-flex items-center justify-center w-full h-full">
-                <button className="btn bg-blue-400 border-0 text-white rounded-md px-5 py-2">
+                <button className="btn bg-blue-400 -ms-16 border-0 text-white rounded-md px-5 py-2">
                   Contact Me{" "}
                   <span className="text-lg ml-1">
                     <FiPhoneCall />
@@ -74,7 +93,7 @@ const Home = () => {
             <div className="relative right-32 ">
               <Lottie animationData={bg} loop={true} />
             </div>
-            <div className="absolute top-12 left-26 ">
+            <div className="absolute top-12 left-26 pt-6 ">
               <img
                 src={img1}
                 alt=""
@@ -94,4 +113,3 @@ const Home = () => {
 };
 
 export default Home;
- 
