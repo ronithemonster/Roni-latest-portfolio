@@ -16,7 +16,7 @@ const Header = () => {
         {/* Logo Section */}
         <Link to="/" className="inline-flex items-center text-xl">
           <span className="ml-2 space-x-1 tracking-wider  font-bold  text-gray-800 flex ">
-          masum.dev
+          roni.dev
           </span>
         </Link>
 

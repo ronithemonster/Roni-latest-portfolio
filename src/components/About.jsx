@@ -54,7 +54,7 @@ const About = () => {
           </div>
 
           <div className="mt-4 md:mt-5 font-semibold text-center md:text-left">
-            Hello!! My name is Farhan Adnan Masum. I want to gain confidence and
+            Hello!! My name is Ashadul Islam Roni. I want to gain confidence and
             fame using my potential in this position, and express my innovative
             creative skills for self and company growth. I am a hardworking and
             quick learner person. I believe hard work is the only way to
